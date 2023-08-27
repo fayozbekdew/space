@@ -1,0 +1,109 @@
+/* MAIN */
+
+.home{
+    background-image: url(../../assets/space-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-container {
+    /* margin-top: rem; */
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    }
+    .main__info {
+    width: 100%;
+    max-width: 445px;
+    margin-left: 10rem;
+    display: block;
+    margin-right: auto;
+    }
+    .main__info__text__top {
+    font-weight: var(--font-weight);
+    font-size: var(--h5-size);
+    line-height: var(--h5-line);
+    letter-spacing: var(--letter-spacing);
+    text-transform: uppercase;
+    margin-bottom: 8rem;
+    color: var(--primary-color);
+    }
+    .main__info__tittle {
+    font-weight: var(--font-weight);
+    font-size: var(--h1-size);
+    /* line-height: var(--h1-line); */
+    text-transform: uppercase;
+    margin-bottom: 9.4rem;
+    color: var(--white-color);
+    }
+    .main__info__text__bottom {
+    font-weight: var(--font-weight);
+    font-size: var(--primary-text-size);
+    line-height: var(--primary-text-line);
+    margin-bottom: 2.4rem;
+    width: 44.4rem;
+    color: var(--primary-color);
+    }
+    .main__img{ 
+    /* width: 204px; */
+    margin-right: 20rem;
+    }
+    .main__img:hover {
+    padding: 5.8rem;
+    border-radius: 50%;
+    animation: box 2s infinite linear ;
+    }
+    
+    @keyframes box {
+    0%{
+    transform: scale(1);
+    background:rgba(255, 255, 255, 1);
+    }
+    20%{
+    transform: scale(1.04);
+    }
+    40%{
+    transform: scale(1.06);
+    }
+    60%{
+    transform: scale(1.08);
+    }
+    80%{
+    transform: scale(1.08);
+    }
+    100%{
+    transform: scale(1.1);
+    
+    }
+    }
+    .main__img__text {
+    font-weight: var(--font-weight);
+    font-size: var(--h4-size);
+    line-height: var(--line-height);
+    padding: 10rem 2rem;
+    border-radius: 50%;
+    text-transform: uppercase;
+    background-color: var(--white-color);
+    }
+    
+    
+    
+    
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+    
+        body{
+            background-image: url(../../assets/space-img@2x.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            }
+    }
+    

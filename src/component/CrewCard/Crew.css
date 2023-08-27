@@ -1,0 +1,178 @@
+:root{
+    --primary-color:#D0D6F9;
+    --white-color:#fff;
+    --primary-midnight:#0B0D17;
+
+    --font-weight:400;
+    --font-weight-bold:700;
+
+    --h1-size:15rem;
+    --h1-line:1.71;
+
+    --line-height:1.15px;
+
+    --h3-size:5.6rem;
+
+    --h4-size:3.2rem;
+
+    --h5-size:2.8rem;
+    --h5-line:1.2;
+
+    --letter-spacing:4.72px;
+
+    --primary-text-size:1.8rem;
+    --primary-text-line:1.78;
+
+    --nav-text:1.6rem;
+    --nav-line:1.2;
+    --nav-letter:2.7px;
+}
+.main{
+    position: relative;
+    }
+    .crews{
+    background-image: url(../../assets/crew-bac.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    .crew{
+    display: flex;
+    
+    }
+    .crew__info {
+    padding-bottom: 8.3rem;
+    }
+    .crew__info__text {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15.4rem;
+        margin-top: 12rem;
+    }
+    .crew__info__text__number {
+        font-weight: var(--font-weight-bold);
+        font-size: var(--h5-size);
+        line-height: var(--h5-line);
+        list-style: var(--letter-spacing);
+        color: var(--primary-color);
+    }
+    .crew__info__text__name {
+        font-weight: var(--font-weight);
+        font-size: var(--h5-size);
+        line-height: var(--h5-line);
+        list-style: var(--letter-spacing);
+        color: var(--white-color);
+        margin-left: 2rem;
+        text-transform: uppercase;
+    }
+    .crew__info__top__text {
+    font-weight: var(--font-weight);
+    font-size: var(--h4-size);
+    line-height: var(--line-height);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 5.5rem;
+    }
+    .crew__info__tittle {
+    font-weight: var(--font-weight);
+    font-size: var(--h3-size);
+    line-height: var(--line-height);
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-bottom: 7.7rem;
+    
+    }
+    .crew__info__bottom__text {
+    width: 44.4rem;
+    font-weight: var(--font-weight);
+    font-size: var(--primary-text-size);
+    line-height: var(--primary-text-line);
+    color: var(--primary-color);
+    }
+    .crew-nav{
+        display: flex;
+        align-items: center;
+        column-gap: 2rem;
+        margin-top: 5rem;
+    }
+    .crew-nav-item{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background-color: #363841;
+    }
+    .crew__img__hurley{
+    position: absolute;
+    /* top: 14.1rem; */
+    bottom: 0;
+    left: 800px ;
+    width: 39.8rem;
+    height: 51.2rem;
+    background-image: url(../../assets/hurley.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    }
+    .crew__img__victor{
+    position: absolute;
+    /* top: 14.1rem; */
+    bottom: 0;
+    left: 800px ;
+    width: 45.8rem;
+    height: 54.2rem;
+    background-image: url(../../assets/viktor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    }
+    .crew__img__mark{
+    position: absolute;
+    /* top: 14.1rem; */
+    bottom: 0;
+    left: 800px ;
+    width: 39.8rem;
+    height: 55.2rem;
+    background-image: url(../../assets/mark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    }
+    .crew__img__ansari{
+    position: absolute;
+    /* top: 14.1rem; */
+    bottom: 0;
+    left: 800px ;
+    width: 48.8rem;
+    height: 51.2rem;
+    background-image: url(../../assets/ansari.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    }
+    
+    
+    
+    
+    
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+    
+    
+        .crews{
+            background-image: url(../../assets/crew-bac@2x.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            }
+            .crew__img {
+            background-image: url(../../assets/hurley@2x.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            }
+    }

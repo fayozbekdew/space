@@ -1,0 +1,54 @@
+.texnology__navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.active{
+    background-color: #FFF;
+    color: black;
+}
+.texnology__item{
+    width: 80px;
+height: 80px;
+border: 2px solid grey;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-family: Bellefair;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2px;
+}
+.texnology-card__left__bottom{
+    margin-top: 13rem;
+    display: flex;
+    column-gap: 8rem;
+}
+.texnology__tittle{
+    color: #FFF;
+font-family: Bellefair;
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 1.7rem;
+}
+.texnology-top-text{
+    color: #D0D6F9;
+font-family: Barlow Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.7px;
+margin-bottom: 1.1rem;
+}
+.texnology-card__right img{
+    border-radius: 5px;
+}

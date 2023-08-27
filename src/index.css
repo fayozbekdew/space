@@ -1,0 +1,89 @@
+:root{
+  --primary-color:#D0D6F9;
+  --white-color:#fff;
+  --primary-midnight:#0B0D17;
+
+  --font-weight:400;
+  --font-weight-bold:700;
+
+  --h1-size:15rem;
+  --h1-line:1.71;
+
+  --h2-size:10rem;
+  --h2-line:1.14;
+  
+  --line-height:1.15px;
+
+  --h3-size:5.6rem;
+
+  --h4-size:3.2rem;
+
+  --h5-size:2.8rem;
+  --h5-line:1.2;
+
+  --letter-spacing:4.72px;
+
+  --primary-text-size:1.8rem;
+  --primary-text-line:1.78;
+
+  --nav-text:1.6rem;
+  --nav-line:1.2;
+  --nav-letter:2.7px;
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 62.5%; 
+}
+body{
+  height: 100%;
+  flex-direction: column;
+  font-family: 'Rubik',"Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color:#4a4b4c;
+  background-color: #fff;
+}
+ul{
+list-style: none;
+}
+a{
+text-decoration: none;
+}
+.container{
+  width: 100%;
+  max-width: 1340px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* scroll */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
